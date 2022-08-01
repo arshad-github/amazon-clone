@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Note on firebase version
+
+- May need to downgrade from v9 to v8:
+  ```
+  $ yarn add firebase@8.2.3
+  ```
+
+## Live demo
+
+- https://clone-bd46c.web.app/
